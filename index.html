@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>個人首頁</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Classy Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- gallery -->
+    <link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+    <!-- //gallery -->
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <link href="//fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> </head>
+
+<body>
+    <div class="main" id="home">
+        <!-- banner -->
+        <div class="banner">
+            <!--Slider--><img src="images/pic2.jpg" height="256px" width="196px" alt=" " class="img-responsive">
+            <h2>林秉豪</h2> <span>正修科技大學 / 資訊工程系</span>
+            <div class="callbacks_container">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="slider-info">
+                            <p>期末再不交報告 </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slider-info">
+                            <p>人生繼續混吃等死</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slider-info">
+                            <p>畢業繼續等死 </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <!--//Slider-->
+            <ul class="top-links">
+                <li><a href="https://www.facebook.com/profile.php?id=100004520524917&fref=ts"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+        <!-- //banner -->
+    </div>
+    <!-- header -->
+    <div class="w3_navigation">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="logo">
+                        <h1><a class="navbar-brand" href="index.html"><span class="one">L</span>in BingHao</a></h1> </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                    <nav class="cl-effect-1" id="cl-effect-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a class="scroll" href="index.html">首頁</a></li>
+                            <li><a href="#about" class="scroll hvr-bounce-to-bottom">關於我</a></li>
+                            <li><a href="#education" class="scroll hvr-bounce-to-bottom">證照</a></li>
+                            <li><a href="#mail" class="scroll hvr-bounce-to-bottom">其他</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+    </div>
+    <!-- //header -->
+    <!-- about -->
+    <!-- //footer -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- skills -->
+    <script src="js/pie-chart.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#44c7f4'
+                , trackColor: '#fff'
+                , lineCap: 'round'
+                , lineWidth: 8
+                , onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+            $('#demo-pie-2').pieChart({
+                barColor: '#44c7f4'
+                , trackColor: '#fff'
+                , lineCap: 'butt'
+                , lineWidth: 8
+                , onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+            $('#demo-pie-3').pieChart({
+                barColor: '#44c7f4'
+                , trackColor: '#fff'
+                , lineCap: 'square'
+                , lineWidth: 8
+                , onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+            $('#demo-pie-4').pieChart({
+                barColor: '#44c7f4'
+                , trackColor: '#fff'
+                , lineCap: 'square'
+                , lineWidth: 8
+                , onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+    </script>
+    <!-- skills -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider3").responsiveSlides({
+                auto: true
+                , pager: true
+                , nav: false
+                , speed: 500
+                , namespace: "callbacks"
+                , before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                }
+                , after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+    </script>
+    <!-- js -->
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/jquery.cm-overlay.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.cm-overlay').cmOverlay();
+        });
+    </script>
+    <!-- js files -->
+    <script src="js/bars.js"></script>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- //js -->
+    <script src="js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            	var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            	};
+            */
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+        });
+    </script>
+    <!-- //here ends scrolling icon -->
+</body>
+
+</html>
